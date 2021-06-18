@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: white;
+	background: linear-gradient(180deg, rgba(37, 38, 41, 0.24) 26.22%, #27292d),
+		linear-gradient(0deg, #171544, #171544);
+}
+img {
+	width: auto;
+	max-width: 100%;
+}
+
+.mr-1 {
+	margin-right: 4px;
+}
+.mr-10 {
+	margin-right: 10px;
+}
+.mr-30 {
+	margin-right: 30px;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+	transition: 0.3s ease;
+}
